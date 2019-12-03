@@ -1,4 +1,4 @@
-#Oyunu oynamak için;
+
 [![Open my game in browser][shell_img]][shell_link]
 
 [shell_img]: http://pixelartmaker.com/art/d6aad27db8ee3e9.png
@@ -6,25 +6,11 @@
 
 
 # Tutorial
-Google Cloud uygulamasını bulut üzerinde çalıştırmak için;
+Google Cloud App Engine reference:
 https://cloud.google.com/python/django/appengine
+If you run locale, In the project urls.py file should be setted correctly!
+I recommend you use path() parameter instead of regular expression in urls.py.
 
-Bu proje Python-django uygulamasıdır. lokalde çalıştırmak için pycharm uygulaması ile yeni bir django application başlatmak gereklidir. daha sonra views.py ve gameController.py proje içerisine kopyalanarak uygulama çalışır hale getirilir.
-Oluşturduğunuz proje ek olarak index fonksiyonumuzu görmesi gerektiği için urls.py dosyasında admin satırının üzerine 
+Thanks for visiting. 
 
-url(r'^$', index),
-
-kısmı eklenmelidir.
-
-urls.py örneği;
-
-
-from cstech.views import index
-
-urlpatterns = [
-    url(r'^$', index),
-    url(r'^admin/', include(admin.site.urls)),
-
-]
-
-Uygulamayı test etmek için New Game butonuna basarak oynayabilirsiniz.
+You can test the code, Please click NEW GAME!.
