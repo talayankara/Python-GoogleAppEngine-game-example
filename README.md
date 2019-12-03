@@ -5,7 +5,7 @@
 [shell_link]: https://cstech-245800.appspot.com/
 
 
-# Tutorial
+# Bulls and Cows Game in cloud.
 Google Cloud App Engine reference:
 https://cloud.google.com/python/django/appengine
 If you run locale, In the project urls.py file should be setted correctly!
